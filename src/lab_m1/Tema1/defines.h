@@ -1,0 +1,46 @@
+#pragma once
+
+#define BODY_LEN 0.4f
+#define HEAD_LEN 0.1f
+#define EYE_DISTANCE 0.05f
+#define PROJECTILE_LEN 0.15f
+#define PICK_UP_LEN 0.2f
+#define PLUS_WIDTH 0.1f
+#define FIRE_LEN 0.05f
+#define PLUS_HEIGHT 0.04f
+#define DOUBLE_UP_LEN 0.07f
+
+#define CENTER glm::vec3(0, 0, 0)
+#define MAP_CORNER -6
+#define MAP_LENGTH 16
+#define IMPLICIT_LEN 1
+#define SIDES 120
+#define ANGULAR_EYE M_PI_4
+
+#define ENEMIES 5
+#define OBSTACLES 6
+
+#define SPAWN_SPEED 2 * 3
+#define FIRE_RATE 2 * 0.7f
+#define DEAD_PROJECTILE 2 * 3
+#define PICKUP_RATE 2 * 10
+#define FAST_FIRE_RATE 2 * 0.3f
+#define FAST_FIRE_RATE_DURATION 2 * 4
+#define DOUBLE_UP_DURATION 2 * 10
+
+#define WHERE_HEALTH_BAR 0.83f
+#define WIDTH_HEALTH_BAR 0.571428f
+#define HEIGHT_HEALTH_BAR 0.15f
+#define MINIMAP_SCALE 5
+#define LOWER_CORNER_LOGIC_SPACE 0
+#define UPPER_CORNER_LOGIC_SPACE 4
+
+#define HERO_HEALTH 1000
+#define HEALTH_ADDED 200
+#define HEALTH_DECAY 200
+#define SCORE_PER_ENEMY 100
+#define HIT_BY_ENEMY 50
+#define SCALE 2
+
+enum PickUpType {HEALTH_INCREASE, FIRE_RATE_DECREASE, DOUBLE_UP};
+#define PICK_UPS 3
